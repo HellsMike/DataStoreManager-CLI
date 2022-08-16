@@ -1,0 +1,21 @@
+{
+  "profiles": {
+    "Erp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AWS_KEY": "AKIA426HH2MGCS47HTWU",
+        "AWS_SECRET": "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"
+      },
+      "remoteDebugEnabled": false,
+      "nativeDebugging": false
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {
+        "AWS_KEY": "AKIA426HH2MGCS47HTWU",
+        "AWS_SECRET": "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"
+      },
+      "distributionName": ""
+    }
+  }
+}
