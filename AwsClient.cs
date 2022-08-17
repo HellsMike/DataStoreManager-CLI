@@ -16,7 +16,7 @@ namespace Erp
         {
             var dynamoDbConfig = new AmazonDynamoDBConfig
             {
-                RegionEndpoint = RegionEndpoint.GetBySystemName("us-east-2")
+                ServiceURL = "http://localhost:7999",
             };
 
             var awsCredentials = new Cred(Environment.GetEnvironmentVariable("AWS_KEY") ?? string.Empty, Environment.GetEnvironmentVariable("AWS_SECRET") ?? string.Empty);

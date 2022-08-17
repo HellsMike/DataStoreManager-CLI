@@ -3,8 +3,8 @@
     "Erp": {
       "commandName": "Project",
       "environmentVariables": {
-        "AWS_KEY": "AKIA426HH2MGCS47HTWU",
-        "AWS_SECRET": "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"
+        "AWS_KEY": "pji5xn",
+        "AWS_SECRET": "vwips8"
       },
       "remoteDebugEnabled": false,
       "nativeDebugging": false
@@ -12,8 +12,8 @@
     "WSL": {
       "commandName": "WSL2",
       "environmentVariables": {
-        "AWS_KEY": "AKIA426HH2MGCS47HTWU",
-        "AWS_SECRET": "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"
+        "AWS_KEY": "pji5xn",
+        "AWS_SECRET": "vwips8"
       },
       "distributionName": ""
     }
