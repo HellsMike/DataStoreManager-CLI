@@ -18,7 +18,7 @@ namespace Erp.Items
         private static readonly HttpClient client = new HttpClient();
         public override void Execute()
         {
-            var path = @"C:\Users\bianco.m\Downloads\dati.txt"; // AnsiConsole.Ask<string>("File Path?");
+            var path = AnsiConsole.Ask<string>("File Path?");
             using (StreamReader str = new StreamReader(path))
             {
                 var items = str.ReadToEnd();

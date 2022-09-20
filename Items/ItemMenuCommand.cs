@@ -27,7 +27,7 @@ namespace Erp
             var result = AnsiConsole
                 .Prompt(new SelectionPrompt<ItemCommands>()
                 .Title("[bold lightseagreen]Items[/]")
-                .AddChoices(new ItemCommands[] { ItemCommands.ShowItems, ItemCommands.LoadFromFile, ItemCommands.InsertSimpleItem,
+                .AddChoices(new ItemCommands[] { ItemCommands.ShowItems, /* ItemCommands.LoadFromFile, */ ItemCommands.InsertSimpleItem,
                     ItemCommands.InsertAdvancedItem, ItemCommands.EditItem, ItemCommands.DeleteItem, ItemCommands.Back }));
             
             switch (result)
